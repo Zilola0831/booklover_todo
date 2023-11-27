@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Agbalumo";
+}
+.inputs{
+    position: relative;
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+#username{
+    padding: 15px 30px 15px 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: blue;
+    
+   
+  
+}
+.a{
+    position: absolute;
+    top: 0;
+  left: 0;
+  height: 100%;
+  width: 47px;
+  padding: 15px 30px;
+  background-color: #eee;
+  border-radius: 20px;
+  
+ 
+}
+.body{
+    padding: 30px;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-between;
+   
+    border-radius: 10px;
+}
+#send{
+    padding: 0px 10px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+#edit1{
+    display: none;
+}
+.buttons{
+    display: flex;
+}
+
+form{
+    width: 100%;
+    padding: 20px;
+}
